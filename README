@@ -1,4 +1,7 @@
-This is your new Play application
+Morhpia sample app for Play 2.2
 =====================================
 
-This file will be packaged with your application, when using `play dist`.
+Requires:
+* mongodb on localhost
+* creates 'sample' collection in mongo
+* Play 2.2.1
