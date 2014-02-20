@@ -11,7 +11,8 @@ object ApplicationBuild extends Build {
     filters,
     "commons-net" % "commons-net" % "3.+",
     "com.google.guava" % "guava" % "14.0",
-    "k7k" %% "play2-morphia-plugin" % "0.0.18"	
+    "k7k" %% "play2-morphia-plugin" % "0.0.18",
+    "com.google.code" % "morphia" % "0.91"
   )
 
   val main = play.Project(appName, appVersion, appDependencies).settings(
